@@ -1,1 +1,29 @@
 /*  your css code here. If applicable */
+.pannel{
+    width: 55px;
+    height: 450px;
+    border-radius:20px;
+    margin: 5px;
+}
+.active{
+    width: 700px;
+    height: 450px;
+    border-radius: 30px;
+    margin: 5px;
+}
+.container{
+    position: relative;
+    display: flex;
+}
+.img-text{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.hidden{
+    display: none;
+}
